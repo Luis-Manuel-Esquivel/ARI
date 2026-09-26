@@ -22496,12 +22496,12 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hench's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindromic rheumatism syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed UMLS C0158178</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0001332; NCI C215373</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 50442003; confirmed OMOP 76196; confirmed DOID 1166; confirmed MONDO 0001332; confirmed NCI C215373; confirmed ICD10 M12.3; confirmed UMLS C0158178, C0085574; confirmed MESH C538103</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50442003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1166</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0158178</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085574</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001332</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M12.3</ARI_ICD10>
@@ -22614,16 +22614,15 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic syndrome | broader | the entire paraneoplastic category (endocrine, haematologic, dermatologic, neurologic, ...)</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNS | broader | abbreviation for paraneoplastic neurological syndrome, the whole family</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed ORPHANET 36388; MONDO 0018215; UMLS C0751911</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0018215, 0044877; NCI C4685; ORPHANET 623626, 36388; UMLS C0393534, C0751911; MESH D020362</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 192877007; confirmed MONDO 0018215, 0044877; confirmed NCI C4685; confirmed ORPHANET 623626, 36388; confirmed UMLS C0393534, C0751911; confirmed MESH D020362; confirmed OMOP 4102330; flagged DOID 0050639; flagged MONDO 0015301; flagged NCI C199391; flagged ORPHANET 137807, 353220; flagged UMLS C0268397; flagged MESH C562642</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: DOID 0050639</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Paraneoplastic neurological syndrome' / 'PNS' / 'Paraneoplastic syndrome' - broader categories; paraneoplastic cerebellar degeneration is one paraneoplastic neurological syndrome. Kept PCD / PCA / paraneoplastic cerebellar ataxia.</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192877007</ARI_SNOMED>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0751911</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0393534</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0044877</ARI_MONDO>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018215</ARI_MONDO>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/31552550/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vogrig 2019; https://pubmed.ncbi.nlm.nih.gov/31552550/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -22638,7 +22637,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic Cerebellar Degeneration, Gynecologic Cancer-Associated - Occurs with ovarian or breast cancer.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic Cerebellar Degeneration, Lung Cancer-Associated - Linked to small-cell lung cancer.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCD</ARI_SurveyCode>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36388</ARI_ORPHANET>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">623626</ARI_ORPHANET>
 </AutoimmuneDisease>
 
@@ -22783,23 +22781,21 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40-50 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001152</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed MONDO 0019533; ORPHANET 90035; UMLS C0019050; MESH D006457</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 1963002; confirmed OMOP 4024671; confirmed DOID 0060284; confirmed MONDO 0100244, 0019533; confirmed NCI C61233; confirmed ICD10 D59.5; confirmed ORPHANET 447, 90035; confirmed UMLS C0019050, C0024790; confirmed MESH D006457; flagged ICD10 D59.6; flagged UMLS C0086774</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0100244, 0019533; ORPHANET 447, 90035</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: ICD10 D59.6; UMLS C0086774</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060284</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0019050</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024790</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0100244</ARI_MONDO>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019533</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59.5</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 7815/100k; Male 6359/100k; F:M ratio 1.22897</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalbert 2019; https://ashpublications.org/blood/article/134/Supplement_1/3407/428186/Epidemiology-of-PNH-and-Real-World-Treatment</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4024671</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963002</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D006457</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C61233</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/22871-paroxysmal-nocturnal-hemoglobinuria</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/paroxysmal-nocturnal-hemoglobinuria-pnh</ARI_RefLink>
@@ -22809,7 +22805,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH, Aplastic Anemia-Associated - Overlaps with bone marrow failure.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH, Classic - Predominantly hemolysis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH</ARI_SurveyCode>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90035</ARI_ORPHANET>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">447</ARI_ORPHANET>
 </AutoimmuneDisease>
 
@@ -22898,14 +22893,11 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-60 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001154</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed SNOMED 402718003, 35154004, 49420001, 200907003; ARI_DXCODE limited to confirmed SNOMED 65172003</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 402718003, 65172003, 35154004, 49420001, 200907003; confirmed OMOP 135338; confirmed DOID 9182; confirmed MONDO 0006594; confirmed NCI C34909; confirmed ICD10 L10; confirmed UMLS C0030807; confirmed MESH D010392; flagged SNOMED 46459009, 36739006; flagged OMOP 4262682, 4066821, 4279526, 4148690, 4291435, 4170723; flagged MONDO 0008219, 0019323, 0019324, 0043257; flagged ORPHANET 704, 79481, 636955, 79480</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0006594</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 46459009, 36739006; OMOP 4262682, 4066821, 4279526, 4148690, 4291435, 4170723</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402718003</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49420001</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200907003</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35154004</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65172003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9182</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0030807</ARI_UMLS>
@@ -22915,7 +22907,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wertenteil 2019; https://pubmed.ncbi.nlm.nih.gov/30892569/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135338</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46459009, 200907003, 65172003, 36739006, 35154004, 402718003, 49420001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65172003</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010392</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34909</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/pemphigus-vulgaris</ARI_RefLink>
@@ -23275,12 +23267,12 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressler's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-cardiac injury syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed SNOMED 827164008; ARI_DXCODE limited to confirmed SNOMED 66189004</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 58600007, 278536002; OMOP 37311078, 4239311, 4150305</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0001049</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 827164008, 66189004; confirmed OMOP 319038; confirmed DOID 10507; confirmed MONDO 0001049; confirmed ICD10 I24.1; confirmed UMLS C0152107; flagged SNOMED 58600007, 278536002; flagged OMOP 37311078, 4239311, 4150305</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66189004</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827164008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10507</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152107</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001049</ARI_MONDO>
@@ -23289,7 +23281,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller 1988; https://pubmed.ncbi.nlm.nih.gov/3189147/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">319038</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827164008, 66189004, 58600007, 278536002</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66189004</ARI_DXCODE>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/17947-dresslers-syndrome</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/dresslers-syndrome/symptoms-causes/syc-20371811</ARI_RefLink>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Registry</ARI_Author>
@@ -23414,22 +23406,18 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic dilated cardiomyopathy</ARI_Synonym>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated cardiomyopathy | broader | DCM is the whole category (ischaemic, genetic/familial, alcoholic, peripartum, idiopathic, autoimmune, ...); this entity is the primary idiopathic / autoimmune subset</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed DOID 12930; MONDO 0005021; NCI C84673; ICD10 I42.0; ORPHANET 217604; MESH D002311; UMLS C0007193; stored UMLS C1449563</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0005021; ORPHANET 217604</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare 'Dilated cardiomyopathy' - the whole DCM category, broader than primary idiopathic dilated cardiomyopathy. Kept 'Idiopathic dilated cardiomyopathy' (essentially the label).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 53043001; confirmed OMOP 4203149; confirmed DOID 12930; confirmed MONDO 0005021; confirmed NCI C84673; confirmed ICD10 I42.0; confirmed ORPHANET 217604; confirmed UMLS C0007193; confirmed MESH D002311</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53043001</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12930</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0007193</ARI_UMLS>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005021</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I42.0</ARI_ICD10>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1449563</ARI_UMLS>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/2766509/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Codd 1989; https://pubmed.ncbi.nlm.nih.gov/2766509/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4203149</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53043001</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D002311</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84673</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Registry: Share: A Cardiomyopathy Registry | https://theshareregistry.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/heart-disease/dilated-cardiomyopathy</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Heart Association | https://www.heart.org/en</ARI_RefLink>
@@ -23439,7 +23427,6 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated Cardiomyopathy, Autoimmune - Immune-mediated heart muscle damage.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated Cardiomyopathy, Familial - Genetic inheritance.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDC</ARI_SurveyCode>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">217604</ARI_ORPHANET>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001167_1615">
@@ -23560,6 +23547,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive facial hemiatrophy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romberg's syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): stored DOID 1757; UMLS C0015458</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0007710; ORPHANET 1214; NCI C116916; MESH D005150</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 718224004; confirmed OMOP 37397558; confirmed MONDO 0007710; confirmed ORPHANET 1214; confirmed NCI C116916; confirmed MESH D005150; flagged DOID 1757; flagged UMLS C0015458</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -23571,6 +23559,8 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718224004</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D005150</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116916</ARI_NCI>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1757</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0015458</ARI_UMLS>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children's Craniofacial Association | https://ccakids.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FACES: The National Craniofacial Association | http://www.faces-cranio.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My journey with Parry-Romberg Syndrome | https://www.facebook.com/pg/hannahbattlingprs/</ARI_RefLink>
@@ -23885,6 +23875,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-14 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001175</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): stored NCI C125384; MESH C535291; ARI_DXCODE limited to confirmed SNOMED 230191005</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0016019; ORPHANET 1929; UMLS C2930868</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 435341000124104; OMOP 763040</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 230191005; confirmed OMOP 4041672; confirmed MONDO 0016019; confirmed ORPHANET 1929; confirmed UMLS C2930868; flagged SNOMED 435341000124104; flagged OMOP 763040; flagged NCI C125384; flagged MESH C535291</ARI_ChangeLog>
@@ -23896,7 +23887,9 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bien 2013; https://pubmed.ncbi.nlm.nih.gov/23216622/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4041672</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230191005, 435341000124104</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230191005</ARI_DXCODE>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C125384</ARI_NCI>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C535291</ARI_MESH>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/6092-rasmussens-encephalitis</ARI_RefLink>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Registry</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>

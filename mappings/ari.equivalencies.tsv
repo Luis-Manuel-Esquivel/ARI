@@ -772,17 +772,17 @@ ARI	0001148	Palindromic rheumatism	skos:exactMatch	DOID	1166	manual	github:Luis-
 ARI	0001148	Palindromic rheumatism	skos:exactMatch	MONDO	0001332	manual	github:Luis-Manuel-Esquivel
 ARI	0001148	Palindromic rheumatism	skos:exactMatch	ncit	C215373	manual	github:Luis-Manuel-Esquivel
 ARI	0001148	Palindromic rheumatism	skos:exactMatch	icd10cm	M12.3	manual	github:Luis-Manuel-Esquivel
-ARI	0001148	Palindromic rheumatism	skos:exactMatch	umls	C0158178	manual	github:Luis-Manuel-Esquivel
+ARI	0001148	Palindromic rheumatism	skos:exactMatch	umls	C0158178	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001148	Palindromic rheumatism	skos:exactMatch	umls	C0085574	manual	github:Luis-Manuel-Esquivel
 ARI	0001148	Palindromic rheumatism	skos:exactMatch	mesh	C538103	manual	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	SNOMEDCT	192877007	manual	github:Luis-Manuel-Esquivel
-ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	MONDO	0018215	manual	github:Luis-Manuel-Esquivel
+ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	MONDO	0018215	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	MONDO	0044877	manual	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	ncit	C4685	manual	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	ORPHA	623626	manual	github:Luis-Manuel-Esquivel
-ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	ORPHA	36388	manual	github:Luis-Manuel-Esquivel
+ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	ORPHA	36388	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	umls	C0393534	manual	github:Luis-Manuel-Esquivel
-ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	umls	C0751911	manual	github:Luis-Manuel-Esquivel
+ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	umls	C0751911	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	mesh	D020362	manual	github:Luis-Manuel-Esquivel
 ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	omop	4102330	manual	github:Luis-Manuel-Esquivel
 ARI	0001150	Paraneoplastic pemphigus	skos:exactMatch	omop	45591627	manual	github:Luis-Manuel-Esquivel
@@ -801,14 +801,14 @@ ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	SNOMEDCT	1963002
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	omop	4024671	manual	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	DOID	0060284	manual	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	MONDO	0100244	manual	github:Luis-Manuel-Esquivel
-ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	MONDO	0019533	manual	github:Luis-Manuel-Esquivel
+ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	MONDO	0019533	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	ncit	C61233	manual	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	icd10cm	D59.5	manual	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	ORPHA	447	manual	github:Luis-Manuel-Esquivel
-ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	ORPHA	90035	manual	github:Luis-Manuel-Esquivel
-ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	umls	C0019050	manual	github:Luis-Manuel-Esquivel
+ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	ORPHA	90035	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	umls	C0019050	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	umls	C0024790	manual	github:Luis-Manuel-Esquivel
-ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	mesh	D006457	manual	github:Luis-Manuel-Esquivel
+ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	mesh	D006457	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	SNOMEDCT	718224004	manual	github:Luis-Manuel-Esquivel
 ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	omop	37397558	manual	github:Luis-Manuel-Esquivel
 ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	MONDO	0007710	manual	github:Luis-Manuel-Esquivel
@@ -816,11 +816,11 @@ ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	ORPHA	1214	manual	git
 ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	ncit	C116916	manual	github:Luis-Manuel-Esquivel
 ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	mesh	D005150	manual	github:Luis-Manuel-Esquivel
 ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	MONDO	1060002	manual	github:Luis-Manuel-Esquivel
-ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	402718003	manual	github:Luis-Manuel-Esquivel
+ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	402718003	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	65172003	manual	github:Luis-Manuel-Esquivel
-ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	35154004	manual	github:Luis-Manuel-Esquivel
-ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	49420001	manual	github:Luis-Manuel-Esquivel
-ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	200907003	manual	github:Luis-Manuel-Esquivel
+ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	35154004	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	49420001	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	200907003	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	omop	135338	manual	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	DOID	9182	manual	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	MONDO	0006594	manual	github:Luis-Manuel-Esquivel
@@ -837,7 +837,7 @@ ARI	0001156	Polyarteritis nodosa	skos:exactMatch	icd10cm	M30.0	manual	github:Lui
 ARI	0001156	Polyarteritis nodosa	skos:exactMatch	ORPHA	767	manual	github:Luis-Manuel-Esquivel
 ARI	0001156	Polyarteritis nodosa	skos:exactMatch	umls	C0031036	manual	github:Luis-Manuel-Esquivel
 ARI	0001156	Polyarteritis nodosa	skos:exactMatch	mesh	D010488	manual	github:Luis-Manuel-Esquivel
-ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	SNOMEDCT	827164008	manual	github:Luis-Manuel-Esquivel
+ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	SNOMEDCT	827164008	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	SNOMEDCT	66189004	manual	github:Luis-Manuel-Esquivel
 ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	omop	319038	manual	github:Luis-Manuel-Esquivel
 ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	DOID	10507	manual	github:Luis-Manuel-Esquivel
@@ -856,13 +856,13 @@ ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	SNOMEDCT	402475008	
 ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	omop	4223495	manual	github:Luis-Manuel-Esquivel
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	SNOMEDCT	53043001	manual	github:Luis-Manuel-Esquivel
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	omop	4203149	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	DOID	12930	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	MONDO	0005021	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ncit	C84673	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	icd10cm	I42.0	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ORPHA	217604	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	umls	C0007193	manual	github:Luis-Manuel-Esquivel
-ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	mesh	D002311	manual	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	DOID	12930	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	MONDO	0005021	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ncit	C84673	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	icd10cm	I42.0	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ORPHA	217604	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	umls	C1449563	manual	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	mesh	D002311	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	31323000	manual	github:Luis-Manuel-Esquivel
 ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	37548006	manual	github:Luis-Manuel-Esquivel
 ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	442459007	manual	github:Luis-Manuel-Esquivel
@@ -925,8 +925,8 @@ ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	mesh	C562642	
 ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	omop	4077943	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	icd10cm	D59.6	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	umls	C0086774	manual-negative	github:Luis-Manuel-Esquivel
-ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	DOID	1757	manual-negative	github:Luis-Manuel-Esquivel
-ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	umls	C0015458	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	DOID	1757	manual	github:Luis-Manuel-Esquivel
+ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	umls	C0015458	manual	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	46459009	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	SNOMEDCT	36739006	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001154	Pemphigus	skos:exactMatch	omop	4262682	manual-negative	github:Luis-Manuel-Esquivel
@@ -954,5 +954,5 @@ ARI	0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch	umls	C0020
 ARI	0001173	Pure red cell aplasia	skos:exactMatch	ORPHA	98421	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001175	Rasmussen syndrome	skos:exactMatch	SNOMEDCT	435341000124104	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001175	Rasmussen syndrome	skos:exactMatch	omop	763040	manual-negative	github:Luis-Manuel-Esquivel
-ARI	0001175	Rasmussen syndrome	skos:exactMatch	ncit	C125384	manual-negative	github:Luis-Manuel-Esquivel
-ARI	0001175	Rasmussen syndrome	skos:exactMatch	mesh	C535291	manual-negative	github:Luis-Manuel-Esquivel
+ARI	0001175	Rasmussen syndrome	skos:exactMatch	ncit	C125384	manual	github:Luis-Manuel-Esquivel
+ARI	0001175	Rasmussen syndrome	skos:exactMatch	mesh	C535291	manual	github:Luis-Manuel-Esquivel
