@@ -18161,7 +18161,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_ImmuneSystem"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary immune deficiency</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001168</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31323000</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37548006</ARI_SNOMED>
@@ -18172,6 +18172,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dysregulation</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26 00:00 | Krishna Udaiwal | Retired: set ARI_Obsolete to true</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001169">

@@ -140,7 +140,7 @@ definition, all synonyms, cross-references grouped by source
 
 ## 7. `7_SNOMED_Matches_All.xlsx` — SNOMED Matches (All Diseases)
 
-**188/210 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
+**189/210 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
 (`standard_concept='S'` filter on OMOP/Athena CONCEPT.csv).
 
 | Column | Description |
@@ -157,14 +157,14 @@ definition, all synonyms, cross-references grouped by source
 | Existing SNOMED (master) | Code from the original master file |
 | Agrees w/ Existing | **QA flag**: Green = agrees with master, Amber = differs from master |
 
-184 of 188 agree with existing master codes; 4 differ.
+184 of 189 agree with existing master codes; 5 differ.
 
 ---
 
 ## 8. `8_Disease_Target_Mappings.xlsx` — Disease x Target Database Matrix
 
-**2,216 rows** — one row for every (disease, target database) pair: 213 diseases
-(211 core + 2 mapping subjects not in the core list) x 10 target databases, plus an extra
+**2,280 rows** — one row for every (disease, target database) pair: 214 diseases
+(210 core + 4 mapping subjects not in the core list) x 10 target databases, plus an extra
 row wherever a disease has more than one mapping into the same database. Built from
 `mappings/ari.sssom.tsv`, so it reports **curated** mappings, not lexical matches.
 
@@ -199,16 +199,16 @@ Meaning of each Mapping Status and the SSSOM state behind it, each prediction me
 verdict, plus the label sources.
 
 ### Predicted matches
-1,467 of the 2,216 rows carry a predicted match — **1,022 of them on pairs no curator has
+1,535 of the 2,280 rows carry a predicted match — **833 of them on pairs no curator has
 reviewed yet**. Predictions come from Gilda lexical grounding plus cross-reference expansion
 through Mondo and DOID hub terms; a term the curators already rejected for that pair is never
 predicted, and predicted SNOMED codes are restricted to standard, non-retired concepts.
-Against the 367 curated mappings, 330 top predictions reproduce the curated term and 22
+Against the 589 curated mappings, 532 top predictions reproduce the curated term and 29
 differ. Method detail in `notebook/ari-grounding/README.md`.
 
-Coverage of the 501 curated mappings: 367 confirmed, 113 rejected, 21 recorded as having no
-term in the database. 1,715 of the 2,130 disease x database pairs are still unreviewed, and
-1,022 of those now arrive with a predicted candidate.
+Coverage of the 845 curated mappings: 589 confirmed, 182 rejected, 74 recorded as having no
+term in the database. 1,435 of the 2,140 disease x database pairs are still unreviewed, and
+833 of those now arrive with a predicted candidate.
 
 Labels come from the local vocabulary copies in `data/2-databases`, except **Orphanet** and
 **NCI Thesaurus** (EBI OLS4 API — no usable local copy) and **UMLS** (labelled from the DOID
