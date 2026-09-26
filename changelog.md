@@ -1,5 +1,79 @@
 # Changelog
 
+## claude/remove-ari-0001168-term-6422bf
+
+- **Retired Primary immune deficiency (`ARI:0001168`).** Set `ARI_Obsolete` to `true` and
+  added an `ARI_ChangeLog` line. The individual stays in the ontology because
+  `validate_mappings.py` fails on a deleted disease (`disease-deleted`); retirement is by
+  `ARI_Obsolete`. It had no mapping rows, subtypes, or other ontology references.
+- **Dropped it from the reports and regenerated everything downstream.** Its row is removed
+  from `1_Core_ARI_Diseases.xlsx` and `4_Additional_Info_Index.xlsx`, which have no generator
+  here; hyperlinks are shifted with their rows, and every other cell and link is unchanged.
+  The grounding pipeline was then rerun: `doid_matches_all.csv`, `snomed_matches_all.csv` and
+  reports 5-7 now cover 210 diseases. Each CSV loses only the one row.
+- **Reports 6 and 8 also pick up earlier changes that were never regenerated.** Report 6's
+  detail sheet now files ICD-9 xrefs under "Other xrefs", as the script has done since the
+  ICD-9 retirement. Report 8 is rebuilt from the current mapping set, 845 curated mappings
+  where the old snapshot had 501, and replaces the stale `ARI:0003` with `ARI:0001214` and
+  `ARI:0001215`. The README counts are updated to match.
+- **The four older grounding scripts now resolve paths from the repo.** They hardcoded a
+  `/sessions/...` sandbox path. Repo files now resolve relative to the script, and
+  `data/2-databases` follows the fixed path the newer scripts use.
+- The master list (`data/1-master/ARI Master List V 2.1 - 2026-06-04.xlsx`) still lists the
+  disease. It is a dated source release and is left as issued.
+
+## t1d-registry-ids
+
+- **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases
+  left with ids from the editor's seed data. The editor started with three demo records
+  (`#T1D_0001`-`0003`, `ARI:0001`-`0003`). When the core reports were imported, Type 1
+  diabetes matched the report's record and took `ARI:0001080`, but the other two appear in
+  no report or master list, so they kept four-digit ids on an IRI outside the registry
+  namespace. Renumbered with the next free ids:
+  - `ARI:0002` -> `ARI:0001214`, Latent autoimmune diabetes in adults (LADA)
+  - `ARI:0003` -> `ARI:0001215`, Fulminant type 1 diabetes
+
+  Each individual moves to `https://diseases.autoimmuneregistry.org/disease/ARI_…`, carries
+  the old id in a new `ARI_FormerID` annotation, and gets a changelog line. Their mapping rows are rewritten to the new ids in both files: four
+  for `ARI:0003`, and the ten `ARI:0002` rows that #88 added.
+- **`validate_mappings.py` now requires seven-digit ids.** The SSSOM subject pattern was
+  `ARI:\d{4,7}` to let these two through; it is `ARI:\d{7}`, and a new `ari-id-shape`
+  check applies the same rule to the ontology's own `ARI_ID`s. The deletion check follows
+  `ARI_FormerID` to the renumbered record, so a renumbering is not reported as
+  `disease-deleted`. `ARI_FormerID` is append-only, and `former-id-in-use` rejects a former
+  id that another disease still uses.
+- `data/4-reports/8_Disease_Target_Mappings.xlsx` still lists `ARI:0003`. It is a
+  formatted snapshot from 2026-08-22 that is already behind the mapping set, and is left
+  for its next regeneration.
+
+## edit/alexlazcano248/mappings-review-1790253647
+
+Fixes the 32 `validate` errors on ARI#88. All come from editor-app defects
+(KrishnaTO/ARI-metadata-manager#171), not from the curator's judgments.
+
+- **Four negative rows had no subject.** The editor now parks ids removed in the field
+  editor and publishes them as flagged, but the parked entry carries only the disease IRI,
+  so the export wrote an empty `subject_id` / `source_id`. Filled in from the ontology's own
+  changelog, which recorded the removals correctly: umls `C2987933`, DOID `9744` and MONDO
+  `0011027` belong to `ARI:0002` (LADA); SNOMED `195353004` to `ARI:0001017` (ANCA
+  vasculitis). The LADA replacements (DOID `0080846`, MONDO `0850306`) are the correct
+  terms on OLS; the removed ones name type 1 and type 2 diabetes.
+- **SNOMED `195353004` on `ARI:0001017` is a reversal.** KrishnaTO had confirmed it on
+  2026-07-10. The removal stands, so the earlier positive SSSOM row is annotated
+  `Superseded by the negative judgment of github:alexlazcano248 …`, as the app does for a
+  reversal made on the review page.
+- **Flagged SNOMED codes survived in `ARI_DXCODE`.** The editor removed them from
+  `ARI_SNOMED` only. Dropped from the DXCODE mirror: `82275008`, `195353004`
+  (ARI:0001017); `715863001`, `722991004`, `702380008` (ARI:0001139); `3548001`
+  (ARI:0001142).
+## skip-superseded-confirmed-not-stored
+
+- **`confirmed-not-stored` no longer fires for superseded rows.** A positive SSSOM row whose
+  `comment` starts with "Superseded by the " has been withdrawn by a later negative judgment,
+  so the id being absent from the ontology is correct. `check_against_ontology` now treats
+  such rows as not live, matching the `contradiction` check (e.g. ARI:0001017 ->
+  SNOMEDCT:195353004, superseded in #88).
+
 ## disease-synonyms-subtypes
 
 - **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones

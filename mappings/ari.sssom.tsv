@@ -156,7 +156,7 @@ ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:37164507	omop	semapv:M
 ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:434026	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		SNOMEDCT:788613004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		omop:37312293	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
-ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	Superseded by the negative judgment of github:alexlazcano248 on 2026-09-24T12:40:43+00:00.
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		DOID:9808	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		ncit:C84566	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		icd10cm:D68.61	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
@@ -394,7 +394,7 @@ ARI:0001095	Fibromyalgia	skos:exactMatch		MONDO:0005546	MONDO	semapv:ManualMappi
 ARI:0001095	Fibromyalgia	skos:exactMatch		ncit:C87497	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		icd10cm:M79.7	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		mesh:D005356	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		DOID:12361	DOID	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		MONDO:0005364	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		ncit:C3071	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
@@ -402,9 +402,9 @@ ARI:0001096	Graves' disease	skos:exactMatch		icd10cm:E05.0	icd10cm	semapv:Manual
 ARI:0001096	Graves' disease	skos:exactMatch		OMIM:275000	OMIM	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		ORPHA:41842	ORPHA	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		mesh:D006111	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		SNOMEDCT:191306005	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
@@ -766,6 +766,105 @@ ARI:0001204	Transverse myelitis	skos:exactMatch	Not	ORPHA:592873	ORPHA	semapv:Ma
 ARI:0001204	Transverse myelitis	skos:exactMatch	Not	ncit:C128378	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch	Not	icd10cm:G37.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		MONDO:0009303	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		ORPHA:375	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch		SNOMEDCT:838330008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch		omop:3654638	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch		MONDO:0016499	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		MONDO:0100014	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		umls:C3203657	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001088	Episcleritis	skos:exactMatch		umls:C0014583	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001088	Episcleritis	skos:exactMatch		ncit:C112189	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001088	Episcleritis	skos:exactMatch		omop:4218083	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001088	Episcleritis	skos:exactMatch		SNOMEDCT:815008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch		mesh:D000071698	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001127	Male infertility associated with antisperm antibodies	skos:exactMatch		SNOMEDCT:414643008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001127	Male infertility associated with antisperm antibodies	skos:exactMatch		omop:4212192	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		SNOMEDCT:26609002	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		omop:377271	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		DOID:3689	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		MONDO:0017362	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		ncit:C84600	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		icd10cm:G54.5	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		ORPHA:2901	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		umls:C0221759	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		mesh:D020968	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		SNOMEDCT:446682003	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		omop:40488855	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		MONDO:0019020	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		ORPHA:66624	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		umls:C2931429	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		mesh:C537163	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		SNOMEDCT:31384009	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		omop:80800	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		DOID:0080745	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		MONDO:0019127	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		ncit:C26925	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		icd10cm:M33.2	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		ORPHA:732	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		umls:C0085655	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		mesh:D017285	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		MONDO:0018747	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ORPHA:46487	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		ORPHA:825	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		MONDO:0018977	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		ORPHA:639	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		umls:C1736154	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:722191003	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		omop:42535714	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		MONDO:0015492	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		ncit:C215687	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		icd10cm:I77.82	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		ORPHA:156152	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		umls:C2717865	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		mesh:D056648	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		umls:C5395057	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		SNOMEDCT:763803004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		omop:35622356	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		MONDO:0008718	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		umls:C3854373	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		ORPHA:83467	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		SNOMEDCT:26889001	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		omop:73001	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		DOID:633	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		MONDO:0021167	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		ncit:C27578	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		icd10cm:M60	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		mesh:D009220	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch		umls:C0027121	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch	Not	omop:3654629	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch	Not	ORPHA:231457	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	SNOMEDCT:46635009	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ncit:C2986	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:D003922	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:C563359	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	SNOMEDCT:3548001	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	omop:378741	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	MONDO:0006682	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	MONDO:0006683	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	MONDO:0008076	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:82275008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	omop:4305666	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	omop:313223	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch	Not	SNOMEDCT:838321000	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch	Not	DOID:327	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch	Not	ncit:C85179	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch	Not	mesh:D013595	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	SNOMEDCT:715863001	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	SNOMEDCT:722991004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	SNOMEDCT:702380008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	omop:45765443	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	omop:37396156	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	omop:36716807	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0016098	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0600023	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001139	Myositis	skos:exactMatch	Not	ORPHA:206569	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls:C2987933	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001145	Ocular myasthenia gravis	skos:exactMatch		SNOMEDCT:230684008	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001145	Ocular myasthenia gravis	skos:exactMatch		omop:4048782	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch		SNOMEDCT:104461000119104	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
@@ -883,33 +982,8 @@ ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	Not	ncit:C
 ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	Not	icd10cm:I42.0	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	Not	ORPHA:217604	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		umls:C1449563	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	Not	umls:C0007193	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	Not	mesh:D002311	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:31323000	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:37548006	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:442459007	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:362993009	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:36138009	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:40483560	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4179989	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4263109	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:29783	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4292707	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:0060831	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:627	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:628	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		MONDO:0015974	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		MONDO:0018306	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		ncit:C27871	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		ncit:C3472	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		icd10cm:D81	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:101972	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:183660	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:381	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C0085110	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C0398794	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C2711630	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		mesh:D016511	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
-ARI:0001168	Primary immune deficiency	skos:exactMatch		mesh:D000081207	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001173	Pure red cell aplasia	skos:exactMatch		SNOMEDCT:50715003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001173	Pure red cell aplasia	skos:exactMatch		omop:140065	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001173	Pure red cell aplasia	skos:exactMatch		DOID:1340	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	

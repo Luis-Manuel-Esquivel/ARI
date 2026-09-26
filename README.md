@@ -106,6 +106,10 @@ What it catches:
   removal with an `ARI_SynonymWithdrawn` marker on the same disease, shaped
   `<synonym> | <reason> | <note>` where `<reason>` is `subtype`, `broader`, `distinct` or
   `non-disease`; the marker is itself append-only, so the review stays on record.
+- Disease ids that are not registry ids. Every `ARI_ID` has seven digits (`ARI:0001234`).
+  A disease is renumbered by changing its `ARI_ID` and adding an `ARI_FormerID` holding the
+  old one, so the deletion check follows the record to its new id. `ARI_FormerID` is
+  append-only, and a former id may not still be in use.
 
 ## Working rules
 

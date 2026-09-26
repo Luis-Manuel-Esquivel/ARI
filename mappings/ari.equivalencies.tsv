@@ -373,7 +373,7 @@ ARI	0001095	Fibromyalgia	skos:exactMatch	MONDO	0005546	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	ncit	C87497	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	icd10cm	M79.7	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	mesh	D005356	manual	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	omop	37163452	manual	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	omop	37163452	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	DOID	12361	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	MONDO	0005364	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	ncit	C3071	manual	github:Jennyzeng25
@@ -381,9 +381,9 @@ ARI	0001096	Graves' disease	skos:exactMatch	icd10cm	E05.0	manual	github:Jennyzen
 ARI	0001096	Graves' disease	skos:exactMatch	OMIM	275000	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	ORPHA	41842	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	mesh	D006111	manual	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
@@ -745,6 +745,105 @@ ARI	0001204	Transverse myelitis	skos:exactMatch	ORPHA	592873	manual-negative	git
 ARI	0001204	Transverse myelitis	skos:exactMatch	ncit	C128378	manual-negative	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	icd10cm	G37.3	manual-negative	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	MONDO	0009303	manual	github:alexlazcano248
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	ORPHA	375	manual	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	SNOMEDCT	838330008	manual	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	omop	3654638	manual	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	MONDO	0016499	manual	github:alexlazcano248
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	MONDO	0100014	manual	github:alexlazcano248
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	umls	C3203657	manual	github:alexlazcano248
+ARI	0001088	Episcleritis	skos:exactMatch	umls	C0014583	manual	github:alexlazcano248
+ARI	0001088	Episcleritis	skos:exactMatch	ncit	C112189	manual	github:alexlazcano248
+ARI	0001088	Episcleritis	skos:exactMatch	omop	4218083	manual	github:alexlazcano248
+ARI	0001088	Episcleritis	skos:exactMatch	SNOMEDCT	815008	manual	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D000071698	manual	github:alexlazcano248
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	SNOMEDCT	414643008	manual	github:alexlazcano248
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	omop	4212192	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	SNOMEDCT	26609002	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	omop	377271	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	DOID	3689	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	MONDO	0017362	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	ncit	C84600	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	icd10cm	G54.5	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	ORPHA	2901	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	umls	C0221759	manual	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	mesh	D020968	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	SNOMEDCT	446682003	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	omop	40488855	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	MONDO	0019020	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	ORPHA	66624	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	umls	C2931429	manual	github:alexlazcano248
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	mesh	C537163	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	SNOMEDCT	31384009	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	omop	80800	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	DOID	0080745	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	MONDO	0019127	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	ncit	C26925	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	icd10cm	M33.2	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	ORPHA	732	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	umls	C0085655	manual	github:alexlazcano248
+ARI	0001162	Polymyositis	skos:exactMatch	mesh	D017285	manual	github:alexlazcano248
+ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	MONDO	0018747	manual	github:alexlazcano248
+ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	ORPHA	46487	manual	github:alexlazcano248
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	ORPHA	825	manual	github:alexlazcano248
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	MONDO	0018977	manual	github:alexlazcano248
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	ORPHA	639	manual	github:alexlazcano248
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	umls	C1736154	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	722191003	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	omop	42535714	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	MONDO	0015492	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	ncit	C215687	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	icd10cm	I77.82	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	ORPHA	156152	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	umls	C2717865	manual	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	mesh	D056648	manual	github:alexlazcano248
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	umls	C5395057	manual	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	SNOMEDCT	763803004	manual	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	omop	35622356	manual	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	MONDO	0008718	manual	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	umls	C3854373	manual	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	ORPHA	83467	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	SNOMEDCT	26889001	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	omop	73001	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	DOID	633	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	MONDO	0021167	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	ncit	C27578	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	icd10cm	M60	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	mesh	D009220	manual	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	umls	C0027121	manual	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	omop	3654629	manual-negative	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	ORPHA	231457	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	46635009	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	C2986	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	E10	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	243377	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D003922	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	C563359	manual-negative	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	SNOMEDCT	3548001	manual-negative	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	omop	378741	manual-negative	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	MONDO	0006682	manual-negative	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	MONDO	0006683	manual-negative	github:alexlazcano248
+ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	MONDO	0008076	manual-negative	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	82275008	manual-negative	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	omop	4305666	manual-negative	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	omop	313223	manual-negative	github:alexlazcano248
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	SNOMEDCT	838321000	manual-negative	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	DOID	327	manual-negative	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	ncit	C85179	manual-negative	github:alexlazcano248
+ARI	0001213	Morvan syndrome	skos:exactMatch	mesh	D013595	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	SNOMEDCT	715863001	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	SNOMEDCT	722991004	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	SNOMEDCT	702380008	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	omop	45765443	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	omop	37396156	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	omop	36716807	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	MONDO	0016098	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	MONDO	0600023	manual-negative	github:alexlazcano248
+ARI	0001139	Myositis	skos:exactMatch	ORPHA	206569	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C2987933	manual-negative	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
 ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	SNOMEDCT	230684008	manual	github:Luis-Manuel-Esquivel
 ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	omop	4048782	manual	github:Luis-Manuel-Esquivel
 ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	SNOMEDCT	104461000119104	manual	github:Luis-Manuel-Esquivel
@@ -862,33 +961,8 @@ ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ncit	C8467
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	icd10cm	I42.0	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ORPHA	217604	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	umls	C1449563	manual	github:Luis-Manuel-Esquivel
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	umls	C0007193	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	mesh	D002311	manual-negative	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	31323000	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	37548006	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	442459007	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	362993009	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	SNOMEDCT	36138009	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	omop	40483560	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	omop	4179989	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	omop	4263109	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	omop	29783	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	omop	4292707	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	DOID	0060831	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	DOID	627	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	DOID	628	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	MONDO	0015974	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	MONDO	0018306	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	ncit	C27871	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	ncit	C3472	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	icd10cm	D81	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	ORPHA	101972	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	ORPHA	183660	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	ORPHA	381	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	umls	C0085110	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	umls	C0398794	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	umls	C2711630	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	mesh	D016511	manual	github:Luis-Manuel-Esquivel
-ARI	0001168	Primary immune deficiency	skos:exactMatch	mesh	D000081207	manual	github:Luis-Manuel-Esquivel
 ARI	0001173	Pure red cell aplasia	skos:exactMatch	SNOMEDCT	50715003	manual	github:Luis-Manuel-Esquivel
 ARI	0001173	Pure red cell aplasia	skos:exactMatch	omop	140065	manual	github:Luis-Manuel-Esquivel
 ARI	0001173	Pure red cell aplasia	skos:exactMatch	DOID	1340	manual	github:Luis-Manuel-Esquivel

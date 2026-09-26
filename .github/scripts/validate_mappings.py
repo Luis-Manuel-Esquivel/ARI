@@ -139,7 +139,7 @@ ONTOLOGY_VALUE_PATTERNS = {
     "ARI_OMIM": "OMIM",
 }
 
-ARI_SUBJECT_RE = re.compile(r"ARI:\d{4,7}")
+ARI_SUBJECT_RE = re.compile(r"ARI:\d{7}")
 AUTHOR_RE = re.compile(r"github:[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?")
 # SSSOM types `mapping_date` as a date, but the editor app publishes a full ISO
 # 8601 timestamp because two judgments on one pair in one day need an order.
@@ -705,8 +705,8 @@ def check_cross_file(sssom: list[Row], equiv: list[Row], report: Report) -> None
 
     A row present in one file and absent from the other is nearly always a
     spreadsheet round-trip that reformatted an id — `362.50` losing its
-    trailing zero, `0111157` losing its leading zeros, `ARI:0003` re-padded to
-    a different width.
+    trailing zero, `0111157` losing its leading zeros, an ARI id written at the wrong
+    width.
     """
     sssom_index = collections.defaultdict(list)
     for row in sssom:
@@ -816,7 +816,7 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
                     f"disease ({properties}, {ONTOLOGY_PATH}:{stored[local]}) and is still served "
                     "to users. Remove the id from the ontology in the same change.",
                 )
-        elif local not in stored:
+        elif local not in stored and not fields["comment"].startswith(SUPERSEDED_MARKER):
             report.warning(
                 "confirmed-not-stored",
                 SSSOM_PATH,
@@ -829,6 +829,25 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
 def check_ontology_values(diseases: dict[str, Disease], report: Report) -> None:
     """The ontology's own cross-reference values must satisfy the same shapes."""
     for disease in diseases.values():
+        if not ARI_SUBJECT_RE.fullmatch(disease.ari_id):
+            report.error(
+                "ari-id-shape",
+                ONTOLOGY_PATH,
+                disease.annotations["ARI_ID"][0][1],
+                f"{disease.ari_id} ({disease.label!r}) is not a registry id of the form "
+                "ARI:0001234.",
+            )
+        # ARI_FormerID records an id a disease was renumbered from, so the deletion
+        # check can follow it. A former id still in use would make it ambiguous.
+        for value, line in disease.annotations.get("ARI_FormerID", []):
+            if value in diseases:
+                report.error(
+                    "former-id-in-use",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} lists {value} as a former id, but {value} is still the "
+                    f"ARI_ID of {diseases[value].label!r}.",
+                )
         for prop, prefix in ONTOLOGY_VALUE_PATTERNS.items():
             for value, line in disease.annotations.get(prop, []):
                 for part in [item.strip() for item in value.split(",")]:
@@ -955,6 +974,7 @@ APPEND_ONLY_PROPERTIES = {
     "ARI_ClinicalSubtype": "clinical subtype",
     "ARI_ChangeLog": "changelog entry",
     "ARI_SynonymWithdrawn": "withdrawn-synonym record",
+    "ARI_FormerID": "former id",
 }
 # A synonym may leave `ARI_Synonym` only when the same disease carries an
 # `ARI_SynonymWithdrawn` marker naming it: "<synonym text> | <reason> | <note>",
@@ -1026,8 +1046,14 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
             prefix, local = object_id.split(":", 1)
             flagged[(row.fields["subject_id"].strip(), prefix)].add(local)
 
+    # A renumbered disease carries its old id in ARI_FormerID; follow it.
+    renumbered = {
+        former: disease
+        for disease in after.values()
+        for former in _values(disease, "ARI_FormerID")
+    }
     for ari_id, was in sorted(before.items()):
-        now = after.get(ari_id)
+        now = after.get(ari_id) or renumbered.get(ari_id)
         if now is None:
             report.error(
                 "disease-deleted",
@@ -1060,7 +1086,7 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
         for prefix, properties in ONTOLOGY_PROPERTIES.items():
             was_ids = set().union(*(_values(was, p) for p in properties))
             now_ids = set().union(*(_values(now, p) for p in properties))
-            lost = was_ids - now_ids - flagged[(ari_id, prefix)]
+            lost = was_ids - now_ids - flagged[(now.ari_id, prefix)]
             # A value that is not a well-formed identifier for its vocabulary was
             # never a usable cross-reference: an ICD-9 code under ICD-10, a range,
             # a doubly-prefixed CURIE. Dropping or re-spelling one is a repair, and
