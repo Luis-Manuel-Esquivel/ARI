@@ -22292,8 +22292,8 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:37 | KrishnaTO | Cross-reference review: flagged SNOMED 62382002</ARI_ChangeLog>
 </owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001145">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001145">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Eye"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocular myasthenia gravis</rdfs:label>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -22308,10 +22308,10 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4048782</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230684008</ARI_DXCODE>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001146">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001146">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001146_1373"/>
   <hasSymptom rdf:resource="#Sym_0001146_1372"/>
   <hasSymptom rdf:resource="#Sym_0001146_1377"/>
@@ -22358,7 +22358,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ophthalmoplegia, Severe - Progressive vision-threatening involvement.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ophthalmoplegia, Mild - Eye movement restriction without vision loss.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GED</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001146_1369">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22420,8 +22420,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001147">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001147">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001147_1385"/>
   <hasSymptom rdf:resource="#Sym_0001147_1384"/>
   <hasSymptom rdf:resource="#Sym_0001147_1381"/>
@@ -22473,7 +22473,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opsoclonus-Myoclonus, Paraneoplastic - Associated with neuroblastoma.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMS</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1183</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001147_1381">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22541,8 +22541,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001148">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001148">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001148_1394"/>
   <hasSymptom rdf:resource="#Sym_0001148_1401"/>
   <hasSymptom rdf:resource="#Sym_0001148_1402"/>
@@ -22592,7 +22592,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindromic Rheumatism, Isolated - No progression to rheumatoid arthritis.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindromic Rheumatism, Pre-Rheumatoid - May develop into rheumatoid arthritis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001148_1393">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22654,8 +22654,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001149">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001149">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001149_1410"/>
   <hasSymptom rdf:resource="#Sym_0001149_1411"/>
   <hasSymptom rdf:resource="#Sym_0001149_1416"/>
@@ -22707,7 +22707,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic Cerebellar Degeneration, Lung Cancer-Associated - Linked to small-cell lung cancer.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCD</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">623626</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001149_1404">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22793,8 +22793,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001150">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001150">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Skin"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic pemphigus</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001150</ARI_ID>
@@ -22809,10 +22809,10 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45591627</ARI_OMOP>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63455</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001151">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001151">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Blood"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paroxysmal cold hemoglobinuria</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001151</ARI_ID>
@@ -22827,10 +22827,10 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4131917</ARI_OMOP>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C538618</ARI_MESH>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90035</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001152">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001152">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001152_1423"/>
   <hasSymptom rdf:resource="#Sym_0001152_1427"/>
   <hasSymptom rdf:resource="#Sym_0001152_1419"/>
@@ -22875,7 +22875,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH, Classic - Predominantly hemolysis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">447</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001152_1419">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22937,8 +22937,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001154">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001154">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001154_1451"/>
   <hasSymptom rdf:resource="#Sym_0001154_1449"/>
   <hasSymptom rdf:resource="#Sym_0001154_1444"/>
@@ -22988,7 +22988,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pemphigus Foliaceus - Affects the skin, no mucosal involvement.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic Pemphigus - Linked to underlying malignancy.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEM</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001154_1444">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23056,8 +23056,8 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001155">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001155">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001155_1466"/>
   <hasSymptom rdf:resource="#Sym_0001155_1467"/>
   <hasSymptom rdf:resource="#Sym_0001155_1459"/>
@@ -23103,7 +23103,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POEMS, Classic - Polyneuropathy, organomegaly, endocrinopathy, M-protein, and skin changes.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POEM</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2905</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001155_1459">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23159,8 +23159,8 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001156">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001156">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001156_1469"/>
   <hasSymptom rdf:resource="#Sym_0001156_1471"/>
   <hasSymptom rdf:resource="#Sym_0001156_1475"/>
@@ -23217,7 +23217,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAN, Hepatitis B-Associated - Linked to HBV infection.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PN</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">767</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001156_1468">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23309,8 +23309,8 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001163">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001163">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001163_1586"/>
   <hasSymptom rdf:resource="#Sym_0001163_1584"/>
   <hasSymptom rdf:resource="#Sym_0001163_1589"/>
@@ -23357,7 +23357,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressler Syndrome, Classic - Pericarditis after heart attack or surgery.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMIS</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001163_1584">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23419,8 +23419,8 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001164">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001164">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postural orthostatic tachycardia syndrome</rdfs:label>
@@ -23440,10 +23440,10 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D054972</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C85020</ARI_NCI>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">443236</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001165">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001165">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_MetabolicSystem"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary acquired chylomicronemia</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001165</ARI_ID>
@@ -23453,10 +23453,10 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402475008</ARI_SNOMED>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4223495</ARI_OMOP>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001167">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001167">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001167_1618"/>
   <hasSymptom rdf:resource="#Sym_0001167_1621"/>
   <hasSymptom rdf:resource="#Sym_0001167_1617"/>
@@ -23496,7 +23496,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated Cardiomyopathy, Autoimmune - Immune-mediated heart muscle damage.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated Cardiomyopathy, Familial - Genetic inheritance.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDC</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001167_1615">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23546,8 +23546,8 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001170">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001170">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001170_1640"/>
   <hasSymptom rdf:resource="#Sym_0001170_1642"/>
   <hasSymptom rdf:resource="#Sym_0001170_1649"/>
@@ -23603,7 +23603,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemifacial Atrophy, Unilateral - Affects one side of the face.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1214</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001170_1637">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23731,8 +23731,8 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001173">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001173">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001173_1679"/>
   <hasSymptom rdf:resource="#Sym_0001173_1678"/>
   <hasSymptom rdf:resource="#Sym_0001173_1681"/>
@@ -23781,7 +23781,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Cell Aplasia, Autoimmune - Associated with immune-mediated suppression.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCA</ARI_SurveyCode>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001173_1678">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23813,8 +23813,8 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001174">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001174">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001174_1688"/>
   <hasSymptom rdf:resource="#Sym_0001174_1690"/>
   <hasSymptom rdf:resource="#Sym_0001174_1685"/>
@@ -23854,7 +23854,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyoderma Gangrenosum, Classic Ulcerative - Painful ulcers.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48104</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001174_1685">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -23892,8 +23892,8 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001175">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001175">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001175_1696"/>
   <hasSymptom rdf:resource="#Sym_0001175_1692"/>
   <hasSymptom rdf:resource="#Sym_0001175_1694"/>
@@ -23930,7 +23930,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rasmussen Syndrome, Unilateral - Affects one hemisphere.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAS</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1929</ARI_ORPHANET>
-</AutoimmuneDisease>
+</owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001175_1692">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
