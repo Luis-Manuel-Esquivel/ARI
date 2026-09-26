@@ -1,5 +1,12 @@
 # Changelog
 
+## claude/remove-ari-0001168-term-6422bf
+
+- **Retired Primary immune deficiency (`ARI:0001168`).** Set `ARI_Obsolete` to `true` and
+  added an `ARI_ChangeLog` line. The individual stays in the ontology because
+  `validate_mappings.py` fails on a deleted disease (`disease-deleted`); retirement is by
+  `ARI_Obsolete`. It had no mapping rows, subtypes, or other ontology references.
+
 ## t1d-registry-ids
 
 - **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases
